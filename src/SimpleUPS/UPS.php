@@ -483,7 +483,7 @@ class UPS
             }
 
             if (defined('UPS_SHIPPER_STATEPROVINCE_CODE')) {
-                $shipperAddress->setState(UPS_SHIPPER_STATEPROVINCE_CODE);
+                $shipperAddress->setStateProvinceCode(UPS_SHIPPER_STATEPROVINCE_CODE);
             }
 
             if (defined('UPS_SHIPPER_POSTAL_CODE')) {
